@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session, flash
 import mysql.connector
 from werkzeug.security import generate_password_hash, check_password_hash
-
+#need to add otp
 import random
 from flask import jsonify
 
