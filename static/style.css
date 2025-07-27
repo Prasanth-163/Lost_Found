@@ -421,3 +421,62 @@ form.sign-in-form {
     background-color: #f8d7da;
     color: #721c24;
 }
+
+/* Email and OTP group container */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Email and OTP inputs */
+.input-group input[type="email"],
+.input-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+/* Send OTP and Verify buttons */
+.input-group button {
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #1a73e8;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    margin-left: -1px; /* To remove the double border between input and button */
+}
+
+.input-group button:hover {
+    background-color: #0c5bd3;
+}
+
+.input-field,
+.otp-field-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.otp-field-group input {
+    flex: 1;
+}
+
+.otp-btn {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.otp-btn:hover {
+    background-color: #45a049;
+}
