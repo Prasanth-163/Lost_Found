@@ -81,3 +81,10 @@ document.getElementById("verify-otp").addEventListener("click", function () {
             alert("OTP verification failed.");
         });
 });
+
+
+function openAdmin() {
+    const modal = document.getElementById("admin-modal");
+    modal.style.display = modal.style.display === "none" ? "block" : "none";
+}
+
